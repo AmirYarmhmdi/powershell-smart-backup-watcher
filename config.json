@@ -1,0 +1,6 @@
+{
+  "SourceFolder": "/Users/amiry/Documents/source",
+  "BackupFolder": "/Users/amiry/Documents/backups",
+  "LogFile": "./logs/activity.log",
+  "ZipBackup": true
+}
