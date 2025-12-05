@@ -45,7 +45,6 @@ if ($zipEnabled -eq $true) {
     $zipPath = "$backupFolder.zip"
     Compress-Archive -Path $backupFolder -DestinationPath $zipPath -Force
 
-    # حذف فولدر اصلی (اختیاری)
     Remove-Item $backupFolder -Recurse -Force
 
     Write-Log "✅ Backup created (ZIP): $zipPath"
